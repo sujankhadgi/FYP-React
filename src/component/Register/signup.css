@@ -1,0 +1,113 @@
+@import "../Login/login.css";
+
+.signup-form{
+    background-color: whitesmoke;
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+
+    align-self: center;
+    justify-self: center;
+
+    height: 80%;
+    width: 80%;
+    
+    border-radius: 10px;
+
+    display: grid;
+
+    grid-template-rows: 3rem repeat(5 , 1fr);
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.signup-title{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+    align-self: center;
+    justify-self: center;
+
+    font-size: 25px;
+
+    color: #252525;
+    font-family: "Roboto" , sans-serif;
+}
+
+.signup-form-1,
+.signup-form-2,
+.signup-form-3,
+.signup-form-4,
+.signup-form-5,
+.signup-form-6{
+    width: 50%;
+    height: 50%;
+
+    border-radius: 10px;
+    border: none;
+
+    align-self: center;
+    justify-self: center;
+
+    padding: 10px;
+}
+
+.signup-form-1{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    border:1px solid #253064;
+}
+
+.signup-form-2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border:1px solid #253064;
+}
+
+.signup-form-3{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    border:1px solid #253064;
+}
+
+.signup-form-4{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    border:1px solid #253064;
+
+}
+
+.signup-form-5{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    border:1px solid #253064;
+}
+
+.signup-form-6{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    border:1px solid #253064;
+}
+
+.signup-btn{
+    grid-row: 5/6;
+    grid-column: 1/-1;
+
+    align-self: center;
+    justify-self: center;
+
+    width: 25%;
+    height: 50%;
+
+    background-color: white;
+    border: 1px solid #253064;
+    border-radius: 10px;
+    color: #253064;
+    cursor: pointer;
+}
+
+.signup-link{
+    grid-row: 6/7;
+    grid-column: 1/-1;
+
+    align-self: center;
+    justify-self: center;
+}

@@ -1,0 +1,85 @@
+.search_main{
+    background-color: white;
+    display: grid;
+
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2 , 1fr);
+
+    height: 90vh;
+}
+
+.model{
+    height: 100%;
+
+    display: grid;
+    grid-template-rows: 3rem repeat(2 , 1fr);
+    grid-template-columns: repeat(2 , 1fr);
+}
+
+.model-title{
+    grid-row: 1/2;
+    grid-column: 1/2;
+
+    font-size: 20px;
+    font-weight: 700;
+    align-self: center;
+    justify-self: center;
+    color: #253064;
+}
+
+.model-exit{
+    grid-row: 1/2;
+    grid-column: 2/3;
+
+    width: 80%;
+    height: 50%;
+    border: none;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+.model-form{
+    grid-row: 2/-1;
+    grid-column: 1/-1;
+
+    background-color: pink;
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5 , 1fr);
+}
+
+.model-form-1,
+.model-form-2,
+.model-form-3,
+.model-form-4{
+    grid-row: 1/-1;
+    width: 80%;
+    height: 25%;
+
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    align-self: center;
+    justify-self: center;
+}   
+
+.model-search{
+    grid-row: 1/-1;
+    align-self: center;
+    justify-self: center;
+
+    width: 85%;
+    height: 30%;
+
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #253064;
+}
+
+
+/* .model-form-1{
+    grid-row: ;
+} */
